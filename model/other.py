@@ -13,4 +13,4 @@ def get_truncated_noise(n_samples, z_dim, truncation):
     truncated_noise = truncnorm.rvs(-truncation, truncation, size=(n_samples, z_dim))
     return torch.Tensor(truncated_noise)
 
-def
+# def
